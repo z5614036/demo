@@ -1,0 +1,130 @@
+.serchPael {
+  /*display: flex;*/
+  margin-left:-5px;
+  padding: 10px 0 0 3px;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.topvideo{
+  padding: 20px;
+  border: 1px solid rgba(121, 121, 121, 1);
+  border-radius: 10px;
+  /*left: 0px;*/
+  /*top: 20px;*/
+  /*font-size: 25px;*/
+}
+.topsecrch{
+  width: 100%;
+}
+
+.addsearch{
+  width:300%;
+}
+.searchbutton{
+  margin-top: 7px;
+}
+.topfont{
+  margin-top: 3px;
+}
+
+.addVideo{
+  margin-top: 5px;
+}
+
+.contruct{
+  display: none;
+}
+
+.deviceJQ{
+  width: 150px;
+}
+:global .detail{
+  margin-left: -100px;
+}
+.method1{
+  position: relative;
+  border: 1px solid #CCCCCC;
+  border-radius:5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.method1 .jbtitle{
+  position: absolute;
+  top: -1em;
+  left: 10%;
+  line-height: 2em;
+  padding: 0 1em;
+  background-color: #fff;
+  color: #7ec2f3;
+
+}
+
+
+.method2{
+  position: relative;
+  border: 1px solid #CCCCCC;
+  border-radius:5px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+
+.method2 .lwtitle{
+  position: absolute;
+  color: #7ec2f3;
+  top: -1em;
+  left: 10%;
+  line-height: 2em;
+  padding: 0 1em;
+  background-color: #fff;
+}
+:global #VideoComponet{
+  padding: 10px 10px!important;
+}
+:global .rolePage{
+  width: 400px!important;
+}
+
+:global .rolePage ul{
+  width:400px;
+  overflow:visible;
+
+}
+:global .rolePage li{
+  box-sizing: border-box;
+  width:100px;
+  text-align: center;
+  display: inline-block;
+
+}
+.tree{
+  display: flex;
+  justify-content: space-between;
+}
+.tree >ul{
+  width: 250px;
+}
+.tree >div{
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
+.tree >div >div{
+  display: flex;
+  width: 100%;
+}
+ul li{
+  list-style: none;
+}
+.checked ul {
+  width: 300px;
+}
+.checked ul li {
+  width: 90px;
+  display: inline-block;
+  color:#13c2c2;
+}

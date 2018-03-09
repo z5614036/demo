@@ -1,0 +1,15 @@
+.container{
+      height: 100%;
+      width: 100%;
+}
+.scrollView{
+      height:100%;
+      margin-top: 50px;
+      margin-bottom: 34px;
+      overflow-y: auto;
+}
+.fixHeader{
+      position: fixed;
+      top:0;
+      height:50px;
+}
